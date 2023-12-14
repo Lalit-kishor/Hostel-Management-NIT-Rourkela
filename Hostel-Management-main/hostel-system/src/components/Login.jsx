@@ -20,7 +20,7 @@ function Login({rollNo,setRollNo}) {
 
     const handleSubmit=()=>{
         if(!validate())
-        retutn
+        return
         navigate('/hostelList')
     }
 
